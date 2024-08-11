@@ -1,0 +1,268 @@
+G1: 
+ text: System behaves according to the require Safety Concept
+ inContextOf: [A1.1,A1.2,C1.1,C1.2,C1.3,C1.4,C1.5,C1.6]
+ supportedBy: [S1.1]
+
+A1.1:
+ text: Assumptions  (Sn221)
+
+A1.2:
+ text: SW
+
+C1.1:
+ text: System Definition.
+C1.2:
+ text: Safety Concepts.  (Sn102)
+C1.3:
+ text: Organisation
+C1.4:
+ text: HW 
+C1.5:
+ text: Customers
+C1.6:
+ text: xxx
+
+S1.1:
+ text: Strategy
+ inContextOf: [C1.1.1,C1.1.2]
+ supportedBy: [G2, G3, G4]
+
+C1.1.1:
+ text: MAM (SN011)
+
+C1.1.2:
+ text: Levels of Requirements 
+
+G2:
+ text: Safety Requirements.
+ inContextOf: [A2.1,C2.1,C2.2]
+ supportedBy: [S2.1]
+
+A2.1:
+ text: SRs are complete and correct
+C2.1:
+ text: SRs
+C2.2:
+ text: Functional Specs
+
+S2.1:
+ text: Argument structured by X and Y 
+ supportedBy: [G5, G6]
+
+G5:
+ text: Xs
+ supportedBy: [Sn227, Sn211]
+
+G6:
+ text: Ys
+ inContextOf: [C6.1]
+ supportedBy: [Sn301, Sn229, SnACP4]
+
+C6.1:
+ text: Verification (Sn301)
+
+SnACP4:
+ text: Verification and Validation
+
+Sn301:
+ text: Verification Summary
+ url: txt
+
+Sn229:
+ text: Test Case Reviews
+ url: txt
+
+G3:
+ text: Behaviour complete and correct
+ inContextOf: [C3.1]
+ supportedBy: [S3.1]
+
+C3.1:
+ text: Safety Requirements (Sn216)
+
+S3.1:
+ text: Safety Requirements
+ supportedBy: [G7, G8]
+
+G7:
+ text: Correctness
+ supportedBy: [S7.1]
+
+S7.1:
+ text: Structure based on X and Y layers.
+ supportedBy: [G9, G10]
+
+G8:
+ text: Completeness of SRs.
+ supportedBy: [Sn216, Sn227]
+
+Sn216:
+ text: SRs
+
+Sn227:
+ text: Requirements Traceability
+ url: txt
+
+Sn211:
+ text: SRs Report
+ url: txt
+
+G4:
+ text: Software Interface Requirements.
+ supportedBy: [Sn238, Sn237]
+
+Sn237:
+ text: SI
+
+Sn238:
+ text: XXX Assumptions
+
+G9:
+ text: Xt
+ inContextOf: [C11.1, C11.2, C16.1]
+ supportedBy: [S9.1]
+
+C11.1:
+ text: Warning Strategy (Sn221)
+C11.2:
+ text:  Metrics (Sn405)
+
+C16.1:
+ text: Safety Functions (SN239)
+
+S9.1:
+ text:  Argument over SRs.
+ supportedBy: [G11, G12]
+
+G11:
+ text: Fault detection.
+ inContextOf: [J11.1, A16.2]
+ supportedBy: [S11.1]
+
+J11.1:
+ text: Tailoring
+
+A16.2:
+ text: External considerations(Sn221)
+
+S11.1:
+ text: Analysis (Sn408)
+ inContextOf: [C11.1.1]
+ supportedBy: [G15, G16, G17]
+
+C11.1.1:
+ text: Analysis (Sn408)
+
+G15:
+ text: Analysis
+ supportedBy: [Sn408, Sn230, Sn231, Sn232, Sn233]
+
+Sn408:
+ text: Analysis Report
+
+Sn230:
+ text: Safety Analysis
+
+Sn231:
+ text: AAA
+ 
+Sn232:
+ text: BBB
+
+Sn233:
+ text: Low level analysis
+
+G16:
+ text: CCC
+ supportedBy: [Sn216C, Sn224]
+
+Sn216C:
+ text: DDD Safety Requirements
+
+Sn224:
+ text: EEE Specifications
+
+G17:
+ text: Metrics are calculated and verified
+ supportedBy: [Sn405]
+ inContextOf: [C17.1]
+
+C17.1:
+ text: Target Metrics  (Sn017)
+
+Sn405:
+ text: XYZ Report
+
+G12:
+ text: Report faults
+ inContextOf: [A12.1]
+ supportedBy: [Sn234, Sn216B - duplicate use]
+
+A12.1:
+ text: Assumprions
+Sn234:
+ text: External Interface Requirements
+
+Sn216B - duplicate use:
+ text: SRs
+
+G10:
+ text: Yr
+ inContextOf: [C10.1]
+ supportedBy: [S10.1]
+
+C10.1:
+ text: Verif Plan (Sn301)
+
+S10.1:
+ text: Verification Strategy
+ supportedBy: [G13, G14]
+
+G13:
+ text: Verification.
+ supportedBy: [G18, G19, G20]
+
+G18:
+ text: coverage. 
+ supportedBy: [Sn229B - duplicate, Sn247, Sn240]
+
+Sn229B - duplicate:
+ text: Test cases
+
+Sn247:
+ text: Test Case report
+
+Sn240:
+ text: Low level Requirements mapped
+
+G19:
+ text: Code coverage is 100%.
+ supportedBy: [Sn301, Sn306]
+
+Sn306:
+ text: Mod Signoff
+
+G20:
+ text: Test Results.
+ supportedBy: [Sn301, Sn206, Sn247, Sn229]
+
+Sn206:
+ text: Signoff
+
+G14:
+ text: Validation.  
+ supportedBy: [Sn301B - duplicate, Sn307]
+ inContextOf: [C14.1]
+
+C14.1:
+ text: Customer tickets (Sn005)
+
+Sn301B - duplicate:
+ text: Verification Summary
+Sn307:
+ text: Reviews
+
+
+
+
+
